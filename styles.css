@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-bg{
+    background-color: rgba(79, 17, 138, 0.65);
+}
+
+.bg-middle{
+    background-color: rgb(233, 242, 242,0.3);
+}
+
+
+.add-msg::before{
+    content: "Entry added successfully";
+    color: rgba(43, 156, 118, 0.7);
+    font-weight: 700;
+}
+
+.delete-msg::before{
+    content: "Entry deleted";
+    color: rgb(240, 30, 30,0.7);
+    font-weight: 700;
+}
+
+.edit-entry::before{
+    content: "Edited successfully";
+    color: rgba(167, 69, 223, 0.7);
+    font-weight: 600;
+}
+
+.clear-data::before{
+    content: "All Entries cleared!!";
+    color: rgb(240, 30, 30,0.7);
+    font-weight: 700;
+}
+
+.notification{
+    text-align: center;
+}
+
+.invalid-entry::before{
+    content: "Invalid character!!";
+    color: rgb(240, 30, 30,0.7);
+    font-weight: 700;
+}
